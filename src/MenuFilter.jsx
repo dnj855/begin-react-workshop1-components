@@ -4,7 +4,7 @@ import Link from "next/link";
 export const MenuFilter = ({ filters, currentFilter }) => {
   return (
     <aside className="flex w-full flex-wrap gap-4 lg:max-w-[200px] lg:flex-col">
-      <MenuItem isActive={!filters} key="filter" filter="">
+      <MenuItem isActive={!currentFilter} key="filter" filter="">
         All
       </MenuItem>
       {filters.map((filter) => (
