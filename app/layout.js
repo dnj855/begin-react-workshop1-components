@@ -5,7 +5,7 @@ import clsx from "clsx";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "ReactJourney",
+  title: "ReactJourney by @clangroth",
   description: "My first React App",
 };
 
